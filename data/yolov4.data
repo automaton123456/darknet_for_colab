@@ -1,5 +1,9 @@
-classes = 4
-train = data/train.txt
-valid = data/test.txt
+#classes = 4
+#train = data/train.txt
+#valid = data/test.txt
+
+classes = 5
+train = /content/darknet_for_colab/AllDataStripped/TrainYolo.txt
+valid = /content/darknet_for_colab/AllDataStripped/TestYolo.txt
 names = data/classes.names
 backup = backup
